@@ -16,6 +16,9 @@ Suppose now that the smartphone is well fixed in the car in an unknown position;
 * Once the orientation is determined, create a rotation matrix to transform the smartphone's accelerometer signals to match the car's frame of reference. The rotation matrix will depend on the specific orientation of the smartphone.
 * Apply the rotation matrix to the accelerometer signals for the entire dataset to obtain the transformed signals aligned with the car's frame of reference.
 
+The transformed signals (in a new coordination) can be visualized:
+![Rotation](./img/rotation.gif)
+
 # Further Improvement
 To make the strategy more robust and accurate, we can leverage additional sensors available in a standard smartphone:
 
