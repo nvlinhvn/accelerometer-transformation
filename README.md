@@ -17,6 +17,7 @@ Suppose now that the smartphone is well fixed in the car in an unknown position;
 * Apply the rotation matrix to the accelerometer signals for the entire dataset to obtain the transformed signals aligned with the car's frame of reference.
 
 The transformed signals (in a new coordination) can be visualized:
+
 ![Rotation](./img/transform.gif)
 
 # Further Improvement
